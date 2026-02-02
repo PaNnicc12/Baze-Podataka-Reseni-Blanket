@@ -9,7 +9,7 @@ namespace BazeLab
         static void Main(string[] args)
         {
             OracleConnection con = null;
-            string strCon = "Data Source=160.99.12.92/gislab_pd;User Id=S20274;Password=covekdog";
+            string strCon = "Data Source=160.99.12.92/gislab_pd;User Id=;Password=";
             try { 
                 con = new OracleConnection(strCon);
                 con.Open();
