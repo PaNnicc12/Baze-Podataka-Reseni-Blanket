@@ -2,7 +2,7 @@ using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Data;
 
-namespace BazeLab
+namespace Zadatak4
 {
     internal class Program
     {
