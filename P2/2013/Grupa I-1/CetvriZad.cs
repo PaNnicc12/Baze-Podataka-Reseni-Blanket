@@ -27,6 +27,7 @@ namespace BazeLab
                 if (dr.HasRows)
                     while (dr.Read())
                         Console.WriteLine(dr.GetString(0) + " " + dr.GetString(1) + " " + dr.GetString(2));
+                dr.Close();
 
             }
             catch (Exception ex) { 
